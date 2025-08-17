@@ -23,5 +23,5 @@ Script en **PowerShell** que permite convertir múltiples archivos de video usan
    $videoExtensions = ".mp4", ".avi", ".mkv", ".wmv"
 
 3. Ejecutar el script:
-```powershell
-.\codificar-videos-a-H265.ps1
+   ```powershell
+   .\codificar-videos-a-H265.ps1
