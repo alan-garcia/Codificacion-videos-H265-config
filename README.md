@@ -1,4 +1,4 @@
-# Codificación videos a H.265 config
+# Codificación videos a H.265
 
 Script en **PowerShell** que permite convertir múltiples archivos de video usando **ffmpeg**, manteniendo la misma extensión de salida, y mostrando una barra de progreso con información del proceso.
 
@@ -21,3 +21,7 @@ Script en **PowerShell** que permite convertir múltiples archivos de video usan
 2. Opcionalmente, puedes modificar las extensiones de video admitidas a tu libre elección:
    ```powershell
    $videoExtensions = ".mp4", ".avi", ".mkv", ".wmv"
+
+3. Ejecutar el script:
+```powershell
+.\codificar-videos-a-H265.ps1
